@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: "Integral";
+  src: url("../fonts/Integral.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "dmsans";
+  src: url("../fonts/dmsans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "averta";
+  src: url("../fonts/averta.ttf") format("truetype");
+}
+
+.averta {
+  font-family: "averta";
+}
+
+.dmsans {
+  font-family: "dmsans";
+}
+
+.integral {
+  font-family: "Integral";
+}
